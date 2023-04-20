@@ -28,8 +28,6 @@ import {
   faSunHaze,
   faClipboard,
   faExternalLink,
-} from '@fortawesome/pro-regular-svg-icons'
-import { faSun } from '@fortawesome/pro-duotone-svg-icons'
 
 // The following import prevents a Font Awesome icon server-side rendering bug,
 // where the icons flash from a very large icon down to a properly sized one:
@@ -45,29 +43,3 @@ library.add(faEnvelope, faSearch, faCalendarDay, faGlobeEurope, faSolidCaretDown
 
 // Import @fortawesome/free-regular-svg-icons
 library.add(faClock)
-
-// Import @fortawesome/pro-regular-svg-icons
-library.add(
-  faCloud,
-  faClouds,
-  faLightbulb,
-  faTachometer,
-  faMoon,
-  faHomeLgAlt,
-  faCaretDown,
-  faCaretRight,
-  faDotCircle,
-  faStars,
-  faSnooze,
-  faCloudSnow,
-  faThunderstorm,
-  faCloudShowersHeavy,
-  faCloudRain,
-  faCloudSun,
-  faSunHaze,
-  faClipboard,
-  faExternalLink
-)
-
-// Import @fortawesome/pro-duotone-svg-icons
-library.add(faSun)
